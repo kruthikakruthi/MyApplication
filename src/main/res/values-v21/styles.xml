@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="EditText.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textColorHint">@color/colorAccent1</item>
+        <item name="hintTextColor">@color/colorAccent1</item>
+        <item name="hintEnabled">true</item>
+    </style>
+</resources>

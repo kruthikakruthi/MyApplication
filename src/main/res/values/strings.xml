@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="hotels">Hotels</string>
+    <string name="resturants">Resturants</string>
+    <string name="beach">beach</string>
+    <string name="bank">bank</string>
+    <string name="airports">airports</string>
+    <string name="cafe">cafe</string>
+
+
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerCloser">drawerCloser</string>
+
+
+    <string name="featured_locations">All featured locations</string>
+    <string name="featured_locations_desc">All the locations that  are featured have top demand in town </string>
+    <string name="categories">categories</string>
+    <string name="view_all">view all</string>
+    <string name="search_text">Search..</string>d
+    <string name="most_viewed_location">Most viewed</string>
+
+
+    //my trip
+
+
+    <string name="trip_city">Trip City :</string>
+    <string name="trip_date">Trip Date :</string>
+    <string name="prompt_trip_name">Enter trip Name</string>
+    <string name="prompt_city_name">Select City</string>
+    <string name="prompt_start_date">Select Trip Date</string>
+    <string name="prompt_add_trip">Add trip</string>
+    <string name="prompt_friend_name">Enter friend name</string>
+    <string name="prompt_add_friend">Add New friend</string>
+    <string name="text_started_on">Started on :  </string>
+    <string name="progress_wait">Please wait…</string>
+    <string name="trip_added">Trip added</string>
+    <string name="friend_added">Friend added to trip</string>
+    <string name="no_friend_selected">Please select a valid friend to add</string>
+    <string name="my_trip">My Trips</string>
+    <string name="no_trips">You don\'t have any trips. Click add button to get started</string>
+    <string name="know_more_about">Know more about %1$s</string>
+    <string name="friends_title">Travelling with someone? Add friends to this trip.</string>
+    <string name="friends_show_title">Friends in this Trip</string>
+    <string name="trip_name_updated">Trip name has been updated</string>
+    <string name="cannot_edit">Trip name can\'t remain empty!</string>
+    <string name="remove_friend_message">Are you sure you want to remove %1$s from this trip?</string>
+    <string name="removed_friend_message">Successfully removed friend</string>
+    <string name="trip_name_blank">Trip name can\'t be left blank</string>
+    <string name="trip_city_blank">Trip city can\`t be left blank</string>
+    <string name="trip_date_blank">Trip start date can\'t be left blank</string>
+    <string name="remove_me_from_trip">Remove me from trip</string>
+    <string name="remove_trip_message">Are you sure want to remove the trip?</string>
+    <string name="trips_together_message">Your trips together…</string>
+    <string name="remove_trip_success">Removed trip successfully!</string>
+    <string name="trip_public_message">This is a public trip. Your friends can view this trip if you share the trip link</string>
+    <string name="trip_private_message">This is a private trip. Your friends, with the trip link, won\'t be able to view this</string>
+    <string name="public_trip_toggle_on">Make Private</string>
+    <string name="public_trip_toggle_off">Make Public</string>
+    <string name="share_trip">Share trip</string>
+    <string name="share_trip_text">Hi! We are planning this trip! Come join us. Here is the link to join: </string>
+    <string name="you_dont_have_trips">You don\'t have any upcoming trips. Click on + icon on bottom to add new trip!</string>
+    <string name="your_past_trips">Your past trips</string>
+    <string name="add_me_to_trip">Add me to this trip</string>
+    <string name="wrong_date_alert">You should use a future date, if you are planning your next trip!</string>
+    <!-- Errors and messages -->
+    <string name="no_items_available">No items available!</string>
+    <string name="passwords_check">Passwords do not match!</string>
+    <string name="email_valid_check">Email address invalid!</string>
+    <string name="location_enabled">Location enabled</string>
+    <string name="location_not_enabled">Location not enabled</string>
+    <string name="title_activity_home2_activty">Home2Activty</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_homee">HomeeActivity</string>
+    <string name="title_activity_home2">Home2Activity</string>
+    <string name="title_activity_content">ContentActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_floating">FloatingActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>

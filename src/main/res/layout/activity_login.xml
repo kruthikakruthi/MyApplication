@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity"
+    android:orientation="vertical"
+    android:background="#fece2f"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/imagelogin"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:transitionName="t_img"
+        android:src="@drawable/ic_place_black_24dp"
+        />
+
+    <TextView
+        android:id="@+id/textlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:transitionName="t_text"
+        android:textColor="#ffff"
+        android:text="Adventure awaits,Go find it"
+        android:textSize="45sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_phone_number_input"
+            android:hint="Phoneno"
+            android:transitionName="t_name"
+            android:textColorHint="#FFFF"
+
+          >
+
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHighlight="#000"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_password_input"
+            android:transitionName="t_pass"
+            android:hint="PASSWORD"
+            app:passwordToggleEnabled="true"
+
+            android:textColorHint="#ffff"
+         >
+
+
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHighlight="#000"
+                android:inputType="textPassword"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/remember_me_chkb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember me"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/forgotlogin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="Forgot password?"
+            android:textColor="#ffff"
+            android:layout_gravity="right"
+            android:elevation="0dp"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="#ffff"
+            android:layout_marginTop="5dp"
+            android:transitionName="t_login"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/signinloginscreen"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="New user? SIGN UP"
+            android:textColor="#ffff"
+            android:transitionName="t_signin"
+
+            android:layout_gravity="right"
+            android:elevation="0dp"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/admin_panel_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/not_admin_panel_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not Admin"
+            android:textColor="#fff"
+            android:visibility="invisible"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/colorPrimary1">
+
+        <TextView
+            android:id="@+id/triplist_name"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Place Name"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/triplist_no_of_peoples"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            android:text="No of Peoples"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textSize="14dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/triplist_address_design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/triplist_name"
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/triplist_price_design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="2dp"
+            android:layout_below="@id/triplist_no_of_peoples"
+            android:gravity="right"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmOrderActivity">
+
+
+    <EditText
+        android:id="@+id/confirm_present_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="search hotels"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+    <ImageView
+        android:id="@+id/searchimage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:layout_marginLeft="-55dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/confirm_present_location"
+        android:src="@drawable/ic_search_black_24dp" />
+
+    <EditText
+        android:id="@+id/confirm_name"
+        android:layout_width="match_parent"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Your name"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+
+    <EditText
+        android:id="@+id/confirm_phn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your phone"
+        android:enabled="false"
+        android:layout_below="@id/confirm_name"
+        android:layout_marginTop="6dp"
+        android:clickable="false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:id="@+id/confirm_email"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:hint="Your email"
+        android:clickable="false"
+        android:layout_below="@id/confirm_phn"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/confirm_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total price"
+        android:enabled="false"
+        android:clickable="false"
+        android:layout_below="@id/confirm_email"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/recyclerlayout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_height="450dp"
+
+        android:layout_below="@id/confirm_price">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/featured_recycler2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+
+                    android:scrollbars="horizontal"
+
+                    >
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </RelativeLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/confirm_btn"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary1"
+        android:text="confirm"/>
+
+
+
+</RelativeLayout>

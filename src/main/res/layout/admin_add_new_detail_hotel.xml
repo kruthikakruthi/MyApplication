@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/card4"
+    tools:context=".AddNewDetailHotel">
+
+
+    <ImageView
+        android:id="@+id/hotel_d_image"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_photo_camera_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+
+    <EditText
+        android:id="@+id/hotel_d_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hotel_d_image"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:hint=" Name..."
+        android:textColorHint="#fff"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+
+        />
+
+    <EditText
+        android:id="@+id/hotel_d_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hotel_d_name"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:hint=" Description ..."
+        android:textColorHint="#fff"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+
+        />
+    <EditText
+        android:id="@+id/hotel_d_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hotel_d_description"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:hint="Address..."
+        android:textColorHint="#fff"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+
+        />
+    <EditText
+        android:id="@+id/hotel_d_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hotel_d_address"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:hint="Price..."
+        android:textColorHint="#fff"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+
+        />
+
+<Button
+    android:id="@+id/add_new_hotel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/hotel_d_price"
+    android:text="Add"
+    android:background="@color/white"
+    android:layout_marginLeft="45dp"
+    android:layout_marginRight="45dp"
+    android:padding="17dp"
+    android:layout_marginTop="20dp"
+    android:textSize="18sp"
+    android:textAllCaps="true" />
+
+</RelativeLayout>

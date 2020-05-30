@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingCompletedActivity">
+
+    <EditText
+        android:id="@+id/pickdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="pick date"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/picktime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="pick timee"
+        android:layout_below="@id/pickdate"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/textpay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAY"
+        android:layout_below="@id/picktime"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"/>
+<RadioButton
+    android:id="@+id/gpay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textpay"
+    android:text="Googlepay"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="40dp"
+    android:textSize="20dp"/>
+
+
+    <RadioButton
+        android:id="@+id/phonepe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gpay"
+        android:text="PhonePe"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"/>
+
+
+    <RadioButton
+        android:id="@+id/paytm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phonepe"
+        android:text="Paytm"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/bookingbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@color/card1"
+        />
+
+
+</RelativeLayout>
